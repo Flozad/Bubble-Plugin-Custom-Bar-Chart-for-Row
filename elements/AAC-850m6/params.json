@@ -1,0 +1,53 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Bar Chart",
+    "fields": {
+        "AAF": {
+            "caption": "tooltip",
+            "default_val": "true",
+            "editor": "Dropdown",
+            "name": "tooltip",
+            "optional": true,
+            "options": "true,false",
+            "rank": 0
+        },
+        "AAG": {
+            "caption": "Individual Bar Color",
+            "default_val": "red, #0000FF\t,grey,orange,brown",
+            "doc": "seperate by comma in order matchin with value and tags. Example: red, #0000FF,grey,orange,brown",
+            "editor": "DynamicValue",
+            "name": "barcolor",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "Individual Bar Tag",
+            "default_val": "Column 1, Column 2,Column 3,Column 4,Column 5",
+            "doc": "seperate by comma in order matchin with value and tags. Example: Column 1, Column 2,Column 3,Column 4,Column 5",
+            "editor": "DynamicValue",
+            "name": "bartags",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAI": {
+            "caption": "barvalue",
+            "default_val": "1,2,3,4,5",
+            "doc": "seperate by comma in order matchin with value and tags. Example: 1, 2,3,4,5",
+            "editor": "DynamicValue",
+            "name": "barvalue",
+            "rank": 3,
+            "value": "text"
+        }
+    },
+    "icon": "ion-podium",
+    "property_applications": {
+        "Border": true,
+        "MinWidth": true,
+        "resizable": true
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "analytics",
+        "1": "ecommerce",
+        "2": "productivity",
+        "3": "data (things)"
+    },
+    "demo_page": "https://clasic-plugins.bubbleapps.io/version-test",
+    "description": "A straightforward simple chart that allows you to format a list to a chart with dynamic scale. No need to have over complex column logic to set rows, their name and color.\n\nChart are made to sum all the rows and display by column.\n\nThis plugin lets you add numbers and make a bar chart on that.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1666624050531x912529445574447900/giphy%20%281%29.gif",
+    "license": "open_source",
+    "link": "https://clasic-plugins.bubbleapps.io/version-test",
+    "name": "Custom Bar Chart for Row",
+    "plugin_instructions": "1. Install Plugin on your app.\n2. Set the location and size of the chart\n3. Add the list for data, tags and color of bar charts"
+}
